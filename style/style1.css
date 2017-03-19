@@ -8,10 +8,9 @@ header{
 	font-size: 50px;margin: 1px;padding: 1%;text-align: center;color:#6600CC;
 	
 }
-section{
-	display: flex; flex-direction: row; padding: 0%;
-	margin:0%; font-size:30px; justify-content: space-around;
-}
+
+	
+
 .menubar ul{
 	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(to bottom right,#FFFFFF, #732C7B); 
 	
@@ -40,7 +39,7 @@ section{
 
 
 .menubar li a:hover {
-	 border-radius: 10px;
+	 border-radius: 10%;
     background: #C3C3E5;
 	color: #6599FF;
     padding: 20px; 
@@ -49,17 +48,60 @@ section{
    
 }
 
+section{
+	display: flex; flex-direction: column; padding: 0%;
+	margin:0%; font-size:30px; justify-content: space-around;  border-radius: 15px 50px 30px;background-color: #ffffff;
+    border: 1px solid #6599FF;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	
+}
+
+.pic{
+	display: flex; flex-direction:row;
+    margin: 5px;
+	
+    
+	
+   
+    width: 100%;
+	justify-content:space-around;
+	
+	
+	
+}
+
+.pic img:hover {
+    transform: rotate(200deg);
+	
+}
+ .pic img {
+    
+	padding: 20px;
+	 border-radius: 15%;
+	 transition:2s;
+	height:2s;
+	background:2s;
+	transition: transform 2s;
+	
+	
+}
+
+.bio{
+	color: purple; text-align:center;
+}
+
 
 .footer{
-	text-align: right;
+	text-align: left;
 }
 
 .social{
 	
 	display: flex; flex-direction:row;
-	float: right;
+	float: left;
   
-	text-align=right;
+	text-align=left;
 	opacity: 1.0;
     filter: alpha(opacity=75);
     
@@ -84,7 +126,10 @@ section{
 		
 		 
 	}
-	
+	Copyright p{
+	text-align:right;
+	margin:2%; color: white;
+	}
 	
 
 html {
