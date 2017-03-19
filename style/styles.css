@@ -1,0 +1,168 @@
+body{
+	margin:1%; font-size: 18px; ;font-family: "Bradley Hand ITC", Bradley,serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;padding: 0;
+}
+
+li{
+list-style:none;
+}
+header{
+	font-size: 50px;margin: 1px;padding: 1%;text-align: center;color:#FF9900;font-family: "Gabriola", Gabriola, serif;
+	
+}
+section{
+	display: flex; flex-direction: row; padding: 0%;
+	margin:0%; font-size:30px; justify-content: space-around;
+}
+.menubar ul{
+	display:flex; flex-direction:row; flex-grow:1;boarder-radius: 19%; background: linear-gradient(-200deg,#FFFFFF,orange);
+	
+}  
+
+
+
+.menubar ul li {
+    float:left;
+	justify-content: Space-around;
+	 margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+	
+	
+}
+
+.menubar ul li a {
+    display: block;
+	padding: 10%;
+    color:  #097054;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+	
+	
+}
+
+
+.menubar li a:hover {
+	 border-radius: 10px;
+    background: #A0522D;
+	color: #FFFBD0;
+    padding: 20px; 
+	text-align: center;
+   
+   
+}
+
+
+
+
+
+
+.pic{
+	display: flex; flex-direction:row;
+    margin: 5px;
+	
+    
+	
+    float: left;
+    width: 100%;
+	justify-content:space-around;
+	
+	
+	
+}
+
+.pic img:hover {
+    transform: rotateY(200deg);
+	
+}
+ .pic img {
+    width: 50%;
+    height: 35%;
+	padding: 20px;
+	 border-radius: 15%;
+}
+
+
+ footer{
+	display:flex; flex-direction:column;
+}
+
+.social{
+	opacity: 1.0;
+    filter: alpha(opacity=75);
+	padding-left: 2%;
+}
+.social img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.social img {
+		width:3%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
+.Copyright p{
+	text-align:right;
+	margin:2%; color: white;
+	
+}
+
+html {
+    background: url(111.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+@media all and (max-width: 600px){
+header{
+flex-direction: column;	
+}
+.menubar{
+	width:100%;
+margin-bottom: 5px;
+flex-direction: column;
+}
+	section{
+	flex-direction: column;
+}
+
+
+
+.pic {
+	width: 100%;
+}
+
+footer{
+	flex-direction: column;
+}
+
+.copyright{
+	width: 100%;
+	margin-bottom: 1 px solid black;
+text-align: center;
+}
+
+.social{'
+width:100%;
+}
+
+}
+
+
+
+	
+	
+
+html {
+    background: url(111.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+}
+
+
+
