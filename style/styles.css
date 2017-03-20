@@ -114,14 +114,22 @@ section{
 
 .img img{
 
-    
+    height:2s;
+	background:2s;
+	transition: transform 2s;
 	 border-radius: 5%;
 }
 .pic img{
 	border-radius: 5%;
+	height:2s;
+	background:2s;
+	transition: transform 4s;
 }
 .photo img{
 	border-radius: 5%;
+	height:2s;
+	background:2s;
+	transition: transform 4s;
 }
 
 .img img:hover{
