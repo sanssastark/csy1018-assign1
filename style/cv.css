@@ -1,0 +1,132 @@
+body{
+  font-size: 18px; font-family: cursive; background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);
+  color: white;
+  margin: 2%;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 1%; margin-bottom: 1%;padding: 0%;
+}
+li{
+  list-style: none;
+}
+a{
+ text-decoration:none;
+}
+header{
+  text-align: center; padding: 4%; color: white;
+ 
+  margin-bottom: 0.5%;
+}
+
+header h2{
+	color: white;
+text-shadow: 3px 3px 3px black;
+}
+
+.menubar ul{
+	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	
+}  
+.menubar ul li {
+    float:left;
+	justify-content: Space-around;
+	 margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+	
+	
+}
+
+.menubar ul li a {
+    display: block;
+	padding: 10%;
+    color:  white;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+	
+	
+}
+
+
+.menubar li a:hover {
+	 border-radius: 10%;
+    background: #00FFAA;
+	color: #66CDAA;
+    padding: 20px; 
+	text-align: center;
+   
+   
+}
+
+
+section{
+  background:#AFEAAA;
+   display: flex;flex-direction: row ;text-align: center;
+  justify-content: space-around; padding: 2%; margin-top: 0.5%;
+  
+}
+
+.pic{
+	padding:1%;
+}
+.info{
+ 
+  width:75%;
+  color:white;
+  text-align:justify;
+}
+
+}
+.info p{
+  margin-left: 3%;
+   text-align:left;
+  
+}
+.info h3{
+  margin-left: 3%;
+  margin-top:  4%;
+  text-align:left;
+}
+
+}
+.footer{
+	text-align: left;
+}
+
+.social{
+	
+	display: flex; flex-direction:row;
+	float: left;
+  
+	text-align=left;
+	opacity: 1.0;
+    filter: alpha(opacity=75);
+    
+	
+    
+	
+}
+	
+	
+.social img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+	
+}
+		
+	.social img{
+		width:5%;
+		height:5%;
+		padding: 1%;
+		 border-radius: 50%;
+		 margin:left;
+		
+		 
+	}
+	Copyright p{
+	text-align:right;
+	margin:2%; color: white;
+	}
+}

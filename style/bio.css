@@ -1,0 +1,184 @@
+body{
+  font-size: 18px; font-family: cursive; background: linear-gradient(10deg,#CA278C,#B96A9A,#FDE8D7,white);
+  background: -moz-linear-gradient:linear-gradient(#B96A9A,#FDE8D7,white,);
+  background: -o-linear-gradient:linear-gradient(#B96A9A,#FDE8D7,white	);
+  background: -webkit-linear-gradient:linear-gradient(20deg,#B96A9A,#FDE8D7,white,);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 4%;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 1%; margin-bottom: 1%;padding: 0%;
+}
+li{
+  list-style: none;
+}
+a{
+ text-decoration:none;
+}
+header{
+  text-align: center; padding: 0%; color: white;
+ 
+  margin-bottom: 0.5%;
+}
+
+ h2{
+	color: Black;
+
+}
+
+
+
+.menubar ul{
+	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); 
+	
+}  
+.menubar ul li {
+    float:left;
+	justify-content: Space-around;
+	 margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+	
+	
+}
+
+.menubar ul li a {
+    display: block;
+	padding: 10%;
+    color:  white;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+	
+	
+}
+
+
+.menubar li a:hover {
+	 border-radius: 10%;
+    background: #ECC5A8	;
+	color: #88382D;
+    padding: 20px; 
+	text-align: center;
+   
+   
+}
+
+section{
+  background:#D889B8; display: flex;flex-direction: row ;text-align: center;
+  justify-content: space-around; padding: 2%; margin-top: 0.5%;
+}
+.pic{
+	
+    margin: 5px;
+	width: 20%;
+	justify-content:space-around;
+	float:left;
+	
+	
+	
+}
+
+.pic img:hover {
+    transform: rotate(200deg);
+	
+}
+ .pic img {
+    
+	
+	 border-radius: 10%;
+	 transition:2s;
+	height:2s;
+	background:2s;
+	transition: transform 2s;
+	
+	
+}
+.info{
+	text-align:left;
+	padding-left:1%;
+}
+.footer{
+	text-align: left;
+}
+
+.social{
+	
+	display: flex; flex-direction:row;
+	float: left;
+  
+	text-align=left;
+	opacity: 1.0;
+    filter: alpha(opacity=75);
+    
+	
+    
+	
+}
+	
+	
+.social img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+	
+}
+		
+	.social img{
+		width:5%;
+		height:5%;
+		padding: 1%;
+		 border-radius: 50%;
+		 margin:left;
+		
+		 
+	}
+	Copyright p{
+	text-align:right;
+	margin:2%; color: white;
+	}
+	
+@media all and (max-width: 600px){
+	header{
+		flex-direction: column;text-align:center;
+	}
+.menubar{
+	width:100%;
+margin-bottom: 2px;
+
+}
+.menubar ul{
+	display: flex; flex-flow: column wrap;border-radius:10%;
+}
+
+	
+
+section{
+	flex-direction: column;
+	width:100%;
+margin-bottom: 4px;
+
+}
+
+
+
+footer{
+	flex-direction: column;
+}
+.social{
+	width: 100%;
+	
+text-align: center;
+}
+
+.social img {
+		width:10%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
+}
+

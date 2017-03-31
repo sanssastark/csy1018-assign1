@@ -1,20 +1,29 @@
+html {
+    background:radial-gradient(#E9E0DB,#F9F6F4,#CCCCCC,#C9A798);
+}
+
 body{
-	margin:1%; font-size: 18px; ;font-family:Times New Roman;
+	margin:1%; font-size: 18px; font-family: "Times New Roman", Georgia, Serif;
+
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;padding: 0;
 }
+
+ul{
+list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
 header{
-	font-size: 50px;margin: 1px;padding: 1%;text-align: center;color:#FF9900;
+	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#FF9900; 
 	
 }
-section{
-	display: flex; flex-direction: row; padding: 0%;
-	margin:0%; font-size:30px; justify-content: space-around;
-}
+
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  background:linear-gradient(to bottom right,#FFFFFF, #732C7B); opacity: 1.0;
-    filter: alpha(opacity=75);
+	display:flex; flex-direction:row; flex-grow:1;boarder-radius: 10%; background: linear-gradient(-20deg,#FFFFFF,#77BED2);
 	
 }  
 
@@ -35,7 +44,6 @@ section{
     display: block;
 	padding: 10%;
     color:  #097054;
-    
     padding: 20px 50px;
     text-decoration: none;
 	
@@ -45,13 +53,24 @@ section{
 
 .menubar li a:hover {
 	 border-radius: 10px;
-    background: #A0522D;
+    background:#5E9DC8;
 	color: #FFFBD0;
-    padding: 20px; 
+    padding: 0%; 
 	text-align: center;
-   
-   
 }
+section{
+	
+}
+select {
+    
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+ 
+   
+
 footer{
 	display:flex; flex-direction:column;
 }
@@ -69,21 +88,11 @@ footer{
 		width:3%;
 		height:6%;
 		padding: 0%;
-		 border-radius: 50%;dd
+		 border-radius: 50%;
 		 margin-left:0.5%;
 }
 .Copyright p{
 	text-align:right;
 	margin:2%; color: white;
-}
 	
-	
-	
-
-
-html {
-    background: url(ii.jpg) no-repeat center fixed; 
-    background-size: cover;
-}
-
 }
