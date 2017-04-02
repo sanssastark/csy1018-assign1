@@ -1,8 +1,8 @@
 body{
-  font-size: 18px; font-family: cursive; background: linear-gradient(10deg,#CA278C,#B96A9A,#ab5088);
+  font-size: 18px; font-family: cursive; background: linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);
   background: -moz-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
   background: -o-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
-  background: -webkit-linear-gradient:linear-gradient(20deg,#B96A9A,#FDE8D7,#ab5088);
+  background: -webkit-linear-gradient:linear-gradient(60deg,#B96A9A,#FDE8D7,#ab5088,#cdb5cd,#ffe1ff);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

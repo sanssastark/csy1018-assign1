@@ -3,7 +3,16 @@ body{
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;padding: 0;
+	
 }
+
+ul{
+  list-style: none;
+}
+a{
+ text-decoration:none;
+}
+
 header{
 	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#003399; font-family:cursive;
 	
@@ -54,29 +63,41 @@ section{
 	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1;
 }
 
-.pic{
-	
-	width:33.33333%;
+
+.picture{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+   width:33.33333%;
 	margin-left: 2%;
 	 position: relative; 
 
 }
 
 
+.picture:hover {
+    border: 1px solid #black;
+}
 
-.img{
-	width: 33.33333%;
-	margin-left: 2%;
-	transition: 4s;
+.picture img {
+	
+	height:2s;
+	background:2s;
+	transition: transform 4s;
+    
+   
+}
+.picture img:hover{
+	transform: rotateY(200deg);
 	
 }
 
-
-.photo{
-	width:33.33333%;
-	margin-left: 2%;
-	
+.info {
+    padding: 1%;
+    text-align: center;
 }
+
+
 
 .img ul li a{
 	color: Black;
@@ -107,38 +128,6 @@ section{
 }
 
 
-.img img{
-
-    height:2s;
-	background:2s;
-	transition: transform 2s;
-	 border-radius: 5%;
-}
-.pic img{
-	border-radius: 5%;
-	height:2s;
-	background:2s;
-	transition: transform 4s;
-}
-.photo img{
-	border-radius: 5%;
-	height:2s;
-	background:2s;
-	transition: transform 4s;
-}
-
-.img img:hover{
-	transform: rotateY(200deg);
-	
-}
-.pic img:hover{
-	transform: rotate(180deg);
-}
-.photo img:hover{
-	transform: rotateZ(20deg);
-}
-
-}
 
 
  footer{

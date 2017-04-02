@@ -1,12 +1,12 @@
 html {
-    background:url(aa.jpg) no-repeat center fixed; 
+    background:	#8b7b8b;
     background-size: cover;
 }
 
 body{
   font-size: 18px; font-family: cursive; 
   
-  color: white;
+  color: white;padding:1%;margin: 2%;
  
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -21,9 +21,11 @@ a{
 header{
   text-align: center; padding: 0%; color: white;
  
-  margin-bottom: 0.5%;
+  margin-bottom: 0.5%;padding: 2%;
 }
-
+h2{
+	font-size:50px;
+}
  
 
 
