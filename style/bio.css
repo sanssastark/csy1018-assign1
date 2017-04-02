@@ -1,8 +1,8 @@
 body{
-  font-size: 18px; font-family: cursive; background: linear-gradient(10deg,#CA278C,#B96A9A,#FDE8D7,white);
-  background: -moz-linear-gradient:linear-gradient(#B96A9A,#FDE8D7,white,);
-  background: -o-linear-gradient:linear-gradient(#B96A9A,#FDE8D7,white	);
-  background: -webkit-linear-gradient:linear-gradient(20deg,#B96A9A,#FDE8D7,white,);
+  font-size: 18px; font-family: cursive; background: linear-gradient(10deg,#CA278C,#B96A9A,#ab5088);
+  background: -moz-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
+  background: -o-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
+  background: -webkit-linear-gradient:linear-gradient(20deg,#B96A9A,#FDE8D7,#ab5088);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -18,13 +18,13 @@ a{
  text-decoration:none;
 }
 header{
-  text-align: center; padding: 0%; color: white;
+  text-align: center; padding: 0%; color: #9932CC;
  
   margin-bottom: 0.5%;
 }
 
  h2{
-	color: Black;
+	color: Black; font-size: 50px;
 
 }
 
@@ -35,12 +35,14 @@ header{
 	
 }  
 .menubar ul li {
+	
+	
     float:left;
 	justify-content: Space-around;
 	 margin: auto;
-    width: 50%;
+    width: 15%;
     
-    padding: 10px;
+    padding: 15px;
 	
 	
 }
@@ -48,8 +50,9 @@ header{
 .menubar ul li a {
     display: block;
 	padding: 10%;
-    color:  white;
-    
+    color:#88382D;
+	background:#de9b69;
+    border-radius:10%;
     padding: 20px 50px;
     text-decoration: none;
 	
@@ -69,7 +72,7 @@ header{
 
 section{
   background:#D889B8; display: flex;flex-direction: row ;text-align: center;
-  justify-content: space-around; padding: 2%; margin-top: 0.5%;
+  justify-content: space-around; padding: 2%; margin-top: 0.5%; color: black;
 }
 .pic{
 	

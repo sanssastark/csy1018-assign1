@@ -1,34 +1,35 @@
 html {
-    background:radial-gradient(#E9E0DB,#F9F6F4,#CCCCCC,#C9A798);
+    background:url(aa.jpg) no-repeat center fixed; 
+    background-size: cover;
 }
 
 body{
-	margin:1%; font-size: 18px; font-family: "Times New Roman", Georgia, Serif;
-
+  font-size: 18px; font-family: cursive; 
+  
+  color: white;
+ 
 }
 h1,h2,h3,h4,h5,h6,p{
-	margin: 0;padding: 0;
+  margin-top: 1%; margin-bottom: 1%;padding: 0%;
 }
-
-ul{
-list-style:none;
+li{
+  list-style: none;
 }
-
 a{
-	text-decoration: none;
+ text-decoration:none;
 }
 header{
-	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#FF9900; 
-	
+  text-align: center; padding: 0%; color: white;
+ 
+  margin-bottom: 0.5%;
 }
 
+ 
+
+
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;boarder-radius: 10%; background: linear-gradient(-20deg,#FFFFFF,#77BED2);
-	
+	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(10deg,#D8BFD8,#9932CC);
 }  
-
-
-
 .menubar ul li {
     float:left;
 	justify-content: Space-around;
@@ -43,7 +44,8 @@ header{
 .menubar ul li a {
     display: block;
 	padding: 10%;
-    color:  #097054;
+    color:  white;
+    
     padding: 20px 50px;
     text-decoration: none;
 	
@@ -52,27 +54,107 @@ header{
 
 
 .menubar li a:hover {
-	 border-radius: 10px;
-    background:#5E9DC8;
-	color: #FFFBD0;
-    padding: 0%; 
+	 border-radius: 10%;
+    background: #9370DB	;
+	color: #88382D;
+    padding: 20px; 
 	text-align: center;
+   
+   
 }
+
+
+
 section{
+	background:linear-gradient(30deg,purple,#9C8AA5,#732C7B,#BDAEC6);
+	display:flex; flex-direction:row; padding:2%;justify-content: space-between; color:white;
 	
 }
-select {
-    
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
+.form{
+	width:65%;
+}
+.form form fieldset legend{
+  margin: 2%;
+}
+input[type=text], select {
+    width: 95%;
+    padding: 2% 2%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1% solid ;
+    border-radius: 5px;
+
+}
+input[type=email], select {
+    width: 95%;
+    padding: 2% 2%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1% solid ;
+    border-radius: 5px;
+
+}
+input[type=contact], select {
+    width: 95%;
+    padding: 2% 2%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1% solid ;
+    border-radius: 5px;
+
+}
+input[type=submit], select {
+    width: 10%;
+    padding: 2% 2%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1% solid ;
+    border-radius: 5px;
+
+}
+input[type=date], select {
+    width: 95%;
+    padding: 2% 2%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1% solid ;
+    border-radius: 10px;
+
+  }
+  textarea[name=feedback], select {
+      width: 95%;
+      padding: 2% 2%;
+      margin: 1% 0;
+      display: inline-block;
+      border: 1% solid ;
+      border-radius: 4px;
+
+    }
+
+
+.me{
+	width:35%;
+	padding-right:1%;
+	text-align:center;
+	
+}	
+
+.me h2{
+	
+	font-size:30px;
+}
+.me p{
+	color:	#E6E6FA;
+	font-size:20px;
+	
+	
+	
 }
  
    
 
 footer{
-	display:flex; flex-direction:column;
+	display:flex; flex-direction:row;
 }
 
 .social{
@@ -93,6 +175,6 @@ footer{
 }
 .Copyright p{
 	text-align:right;
-	margin:2%; color: white;
+	margin:2%; color: black;
 	
 }
