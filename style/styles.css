@@ -61,8 +61,8 @@ header{
 section{
 	display: flex; flex-direction: row; padding: 1%;
 	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1;
+	
 }
-
 
 .picture{
     margin: 5px;
@@ -99,7 +99,8 @@ section{
 
 
 
-.img ul li a{
+ article ul li a{
+	 align:middle;
 	color: Black;
 	background-color: #79BEDB;
     border-radius: 50%;
@@ -112,17 +113,18 @@ section{
 }
 }
 
-.img ul li:hover a{
+ article ul li:hover a{
 	color: white;
 }
 
-.img ul li ul{display: none;}
+ article ul li ul{display: none;}
 
 
-.img ul li:hover ul{
+ article ul li:hover ul{
     display: block;
 	border-radius:15%;
 	background: #DCDCDC;
+	width:30%;
 	
 
 }
