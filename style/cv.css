@@ -65,12 +65,15 @@ section{
   background:#AFEAAA;
    display: flex;flex-direction: row ;text-align: center;
   justify-content: space-around; padding: 2%; margin-top: 0.5%;
+  border-radius:2%;
   
 }
 
 .pic{
-	padding:1%;
+
+	float:left;
 }
+
 .info{
  
   width:75%;
@@ -89,7 +92,36 @@ section{
   margin-top:  4%;
   text-align:left;
 }
-
+.extra{
+	 display: flex; flex-direction: row; justify-content: space-between; margin-top:1%;
+}
+.course{
+	margin:1%;
+  border-radius: 5%;
+  width: 60%;
+ padding: 1%;
+  background:#AFEAAA;
+   text-align: center;
+   padding: 2%; margin-top: 0.5%;
+  
+}
+.personal{
+	margin:1%;
+  border-radius: 5%;
+  width: 60%;
+ padding: 1%;
+  background:#AFEAAA;
+   text-align: center;
+   padding: 2%; margin-top: 0.5%;
+}
+.skill{
+	margin:1%;
+  border-radius: 5%;
+  width: 60%;
+ padding: 1%;
+  background:#AFEAAA;
+   text-align: center;
+   padding: 2%; margin-top: 0.5%;
 }
 .footer{
 	text-align: left;

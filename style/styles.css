@@ -1,5 +1,5 @@
 body{
-	margin:1%; font-size: 18px; ;font-family:Times New Roman;
+	margin:1%; font-size: 18px; 
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;padding: 0;
@@ -14,13 +14,13 @@ a{
 }
 
 header{
-	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#003399; font-family:cursive;
+	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#003399; font-family:sans-serif;
 	
 }
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  background:linear-gradient(to bottom right,#FFFFFF, #66CCFF,#003399); opacity: 1.0;
-    filter: alpha(opacity=75);
+	display:flex; flex-direction:row; flex-grow:1; background:linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);
+    filter: alpha(opacity=75); font-size:20px;font-family:cursive;
 	
 }  
 
@@ -40,7 +40,7 @@ header{
 .menubar ul li a {
     display: block;
 	padding: 10%;
-    color:  #097054;
+    color: #19262f;
     
     padding: 20px 50px;
     text-decoration: none;
@@ -51,7 +51,7 @@ header{
 
 .menubar li a:hover {
 	 border-radius: 10px;
-    background: #C7AFBD;
+    background: #324c5f;
 	color: #FFFBD0;
     padding: 20px; 
 	text-align: center;
@@ -60,15 +60,16 @@ header{
 }
 section{
 	display: flex; flex-direction: row; padding: 1%;
-	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1;
+	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1; font-family: "Gabriola", Gabriola, serif;
 	
 }
 
 .picture{
     margin: 5px;
     border: 1px solid #ccc;
+	border-radius:2%;
     float: left;
-   width:33.33333%;
+   
 	margin-left: 2%;
 	 position: relative; 
 
@@ -100,7 +101,9 @@ section{
 
 
  article ul li a{
-	 align:middle;
+	
+
+
 	color: Black;
 	background-color: #79BEDB;
     border-radius: 50%;
@@ -111,7 +114,7 @@ section{
     display: inline-block;
     font-size: 30px;
 }
-}
+
 
  article ul li:hover a{
 	color: white;
@@ -159,7 +162,7 @@ section{
 }
 
 html {
-    background: url(bb.jpg) no-repeat center fixed; 
+    background:#4ca6ff no-repeat center fixed; 
     background-size: cover;
 }
 
@@ -187,14 +190,7 @@ margin-bottom: 4px;
 	width: 50%;
 	padding-bottom:4%;
 }
-.img{
-	width: 50%;
-	padding-bottom:4%;
-}
-.photo{
-	width: 50;
-	padding-bottom:4%;
-}
+
 
 footer{
 	flex-direction: column;
