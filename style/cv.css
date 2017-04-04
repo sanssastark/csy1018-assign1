@@ -70,8 +70,11 @@ section{
 }
 
 .pic{
-
-	float:left;
+	
+}
+.pic img{
+	padding:0%;
+	border-radius:3%;
 }
 
 .info{
@@ -161,4 +164,58 @@ section{
 	text-align:right;
 	margin:2%; color: white;
 	}
+
+@media all and (max-width: 600px){
+	header{
+		flex-direction: column;text-align:center;
+	}
+.menubar{
+	width:100%;
+margin-bottom: 2px;
+}
+.menubar ul{
+	display: flex; flex-flow: column wrap;border-radius:10%;
+}
+
+	
+
+section{
+	display: flex; flex-flow: column wrap;border-radius:10%; 
+margin-bottom: 4px;
+
+}
+.pic{
+	margin-top:2%;
+}
+.extra{
+display: flex; flex-direction: column;  margin-top:1%;
+}
+.course{
+	width:100%;
+}
+.personal{
+	width:100%;
+}
+.skill{
+	width:100%;
+}
+
+
+
+footer{
+	flex-direction: column;
+}
+.social{
+	width: 100%;
+	
+text-align: center;
+}
+
+.social img {
+		width:10%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
 }
