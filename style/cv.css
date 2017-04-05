@@ -1,5 +1,9 @@
 body{
-  font-size: 18px; font-family: cursive; background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);
+  font-size: 18px; font-family: cursive; 
+  background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);
+  background: -moz-linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
+  background: -webkit-linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for safari*/
+  background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for opera*/
   color: #006400;
   margin: 2%;
 }
@@ -24,7 +28,11 @@ text-shadow: 3px 3px 3px black;
 }
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	display:flex; flex-direction:row; flex-grow:1; 
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
 	
 }  
 .menubar ul li {
@@ -64,8 +72,7 @@ text-shadow: 3px 3px 3px black;
 section{
   background:#AFEAAA;
    display: flex;flex-direction: row ;text-align: center;
-  justify-content: space-around; padding: 2%; margin-top: 0.5%;
-  border-radius:2%;
+  justify-content: space-around; padding: 2%; margin-top: 0.5%;/*margin 0.5% wiil be made from the top*/
   
 }
 
@@ -80,11 +87,11 @@ section{
 .info{
  
   width:75%;
-  color:white;
+  color:#006400;;
   text-align:justify;
 }
 
-}
+
 .info p{
   margin-left: 3%;
    text-align:left;
@@ -129,20 +136,19 @@ section{
 .footer{
 	text-align: left;
 }
-
 .social{
-	
-	display: flex; flex-direction:row;
-	float: left;
-  
-	text-align=left;
 	opacity: 1.0;
     filter: alpha(opacity=75);
-    
-	
-    
-	
+	padding-left: 2%;
 }
+	.social img {
+		width:3%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
+
 	
 	
 .social img:hover {
@@ -151,15 +157,10 @@ section{
 	
 }
 		
-	.social img{
-		width:5%;
-		height:5%;
-		padding: 1%;
-		 border-radius: 50%;
-		 margin:left;
+	
 		
 		 
-	}
+	
 	Copyright p{
 	text-align:right;
 	margin:2%; color: white;
@@ -191,13 +192,13 @@ margin-bottom: 4px;
 display: flex; flex-direction: column;  margin-top:1%;
 }
 .course{
-	width:100%;
+	width:94%;
 }
 .personal{
-	width:100%;
+	width:94%;
 }
 .skill{
-	width:100%;
+	width:94%;
 }
 
 

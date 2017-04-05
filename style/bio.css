@@ -1,8 +1,8 @@
 body{
   font-size: 18px; font-family: cursive; background: linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);
-  background: -moz-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
-  background: -o-linear-gradient:linear-gradient(#B96A9A,#FDE8D7);
-  background: -webkit-linear-gradient:linear-gradient(60deg,#B96A9A,#FDE8D7,#ab5088,#cdb5cd,#ffe1ff);
+  background:-moz-linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);/* used for mozilla firefox*/
+  background:-webkit-linear-gradient(60deg,#B96A9A,#FDE8D7,#ab5088,#cdb5cd,#ffe1ff);/*used for safari*/
+  background:-o-linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);/* used for opera*/
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -31,32 +31,32 @@ header{
 
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); 
+	display:flex; flex-direction:row; flex-grow:1;  
+	background: linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); 
+	background: -moz-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for safari*/
+	background: -o-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for opera*/
 	
 }  
 .menubar ul li {
 	
 	
     float:left;
-	justify-content: Space-around;
+	justify-content: Space-around;/*give space between block*/
 	 margin: auto;
     width: 15%;
     
-    padding: 15px;
-	
-	
+    padding: 2%;
 }
 
 .menubar ul li a {
-    display: block;
+    display: block; /*to display the elements in block*/
 	padding: 10%;
     color:#88382D;
 	background:#de9b69;
     border-radius:10%;
-    padding: 20px 50px;
+    padding: 11% ;
     text-decoration: none;
-	
-	
 }
 
 
@@ -64,7 +64,7 @@ header{
 	 border-radius: 10%;
     background: #ECC5A8	;
 	color: #88382D;
-    padding: 20px; 
+    padding: 11%; 
 	text-align: center;
    
    
@@ -86,17 +86,15 @@ section{
 }
 
 .pic img:hover {
-    transform: rotate(200deg);
-	
+    transform: rotate(200deg);/*rotate image 200deg*/
 }
  .pic img {
     
 	
 	 border-radius: 10%;
 	 transition:2s;
-	height:2s;
-	background:2s;
-	transition: transform 2s;
+	
+	transition: transform 2s;/*make transition last for 2s*/
 	
 	
 }
@@ -105,23 +103,22 @@ section{
 	padding-left:1%;
 }
 .footer{
-	text-align: left;
+	text-align:left;/*align the text to the left*/
 }
 
+
 .social{
-	
-	display: flex; flex-direction:row;
-	float: left;
-  
-	text-align=left;
 	opacity: 1.0;
     filter: alpha(opacity=75);
-    
-	
-    
-	
+	padding-left: 2%;
 }
-	
+	.social img {
+		width:3%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
 	
 .social img:hover {
     opacity: 0.5;
@@ -129,37 +126,31 @@ section{
 	
 }
 		
-	.social img{
-		width:5%;
-		height:5%;
-		padding: 1%;
-		 border-radius: 50%;
-		 margin:left;
-		
-		 
-	}
+	
 	Copyright p{
 	text-align:right;
 	margin:2%; color: white;
 	}
 	
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){/*make the webpage mobile responsive*/
 	header{
 		flex-direction: column;text-align:center;
 	}
-.menubar{
-	width:100%;
-margin-bottom: 2px;
 
-}
+	.menubar{
+		width: 100%;
+	}
 .menubar ul{
 	display: flex; flex-flow: column wrap;border-radius:10%;
 }
 
-	
+.menubar ul li {
+	 margin-left: 0px;
+    width: 85%;
+}
 
 section{
-	flex-direction: column;
+	flex-direction: column;/*display the elements in a column*/
 	width:100%;
 margin-bottom: 4px;
 

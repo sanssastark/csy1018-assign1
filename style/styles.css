@@ -19,9 +19,12 @@ header{
 }
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1; background:linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);
-    filter: alpha(opacity=75); font-size:20px;font-family:cursive;
-	
+	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
+	background:linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);
+background:-moz-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/* used for mozilla firefox*/
+  background:-webkit-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/*used for safari*/
+  background:-o-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/* used for opera*/
+
 }  
 
 
@@ -66,10 +69,9 @@ section{
 
 .picture{
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /*a solid border of 1px will appear*/
 	border-radius:2%;
     float: left;
-   
 	margin-left: 2%;
 	 position: relative; 
 
@@ -77,38 +79,32 @@ section{
 
 
 .picture:hover {
-    border: 1px solid #black;
+    border: 1px solid #000000 ;/*a solid border of 1px will appear*/
 }
 
 .picture img {
-	
-	height:2s;
-	background:2s;
 	transition: transform 4s;
     
    
 }
 .picture img:hover{
-	transform: rotateY(200deg);
+	transform: rotateY(200deg);/*the picture will be rotated 200deg*/
 	
 }
 
+
 .info {
     padding: 1%;
-    text-align: center;
+    text-align: center;/* used for alignning the text in the center*/
 }
 
 
 
 
  article ul li a{
-	
-
-
 	color: Black;
 	background-color: #79BEDB;
     border-radius: 50%;
-    
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -134,15 +130,17 @@ section{
 }
 
 
-
+article{
+	text-align: center;
+}
 
  footer{
-	display:flex; flex-direction:column;
+	display:flex; flex-direction:column;/* used to make all elements in column*/
 }
 
 .social{
 	opacity: 1.0;
-    filter: alpha(opacity=75);
+    filter: alpha(opacity=75);/*makes the selected item a little obaque*/
 	padding-left: 2%;
 }
 .social img:hover {
@@ -153,7 +151,7 @@ section{
 		width:3%;
 		height:6%;
 		padding: 0%;
-		 border-radius: 50%;
+		 border-radius: 50%;/*disply the image in a circle*/
 		 margin-left:0.5%;
 }
 .Copyright p{
@@ -167,7 +165,7 @@ html {
     background-size: cover;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){/*this is used for making the website mobile responsive*/
 	header{
 		flex-direction: column;text-align:center;
 	}
@@ -182,19 +180,27 @@ margin-bottom: 2px;
 	
 
 section{
-	flex-direction: column;
-	width:100%;
+	flex-direction: column;/*makes the elements in section appear in column in mobile*/
+	width:98%;
 margin-bottom: 4px;
 
 }
 .pic{
-	width: 50%;
+	width: 98%;
 	padding-bottom:4%;
 }
 
+.info{
+	width: 98%;
+}
+
+.picture img{
+	width: 100%;
+}
 
 footer{
 	flex-direction: column;
+	width: 98%;
 }
 .social{
 	width: 100%;
@@ -207,11 +213,6 @@ text-align: center;
 		height:6%;
 		padding: 0%;
 		 border-radius: 50%;
-		 margin-left:0.5%;
+margin-left:0.5%;
 }
 }
-
-
-
-
-

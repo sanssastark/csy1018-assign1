@@ -83,7 +83,7 @@ input[type=text], select {
     padding: 2% 2%;
     margin: 1% 0;
     display: inline-block;
-    border: 1% solid ;
+    border: 1px;
     border-radius: 5px;
 
 }
@@ -92,7 +92,7 @@ input[type=email], select {
     padding: 2% 2%;
     margin: 1% 0;
     display: inline-block;
-    border: 1% solid ;
+    border: 1px ;
     border-radius: 5px;
 
 }
@@ -101,7 +101,7 @@ input[type=contact], select {
     padding: 2% 2%;
     margin: 1% 0;
     display: inline-block;
-    border: 1% solid ;
+    border: 1px;
     border-radius: 5px;
 
 }
@@ -110,7 +110,7 @@ input[type=submit], select {
     padding: 2% 2%;
     margin: 1% 0;
     display: inline-block;
-    border: 1% solid ;
+    border: 1px ;
     border-radius: 5px;
 
 }
@@ -119,7 +119,7 @@ input[type=date], select {
     padding: 2% 2%;
     margin: 1% 0;
     display: inline-block;
-    border: 1% solid ;
+    border: 1px ;
     border-radius: 10px;
 
   }
@@ -128,7 +128,7 @@ input[type=date], select {
       padding: 2% 2%;
       margin: 1% 0;
       display: inline-block;
-      border: 1% solid ;
+      border: 1px;
       border-radius: 4px;
 
     }
@@ -203,16 +203,24 @@ margin-bottom: 4px;
 
 }
 
+.form{
+	
+width: 100%;
+}
 
+input[type=submit]{
+	width: 100%;
+}
 
 footer{
 	flex-direction: column;
 }
 .social{
-	width: 100%;
-	
-text-align: center;
+	opacity: 1.0;
+    filter: alpha(opacity=75);
+	padding-left: 2%;
 }
+	
 
 .social img {
 		width:10%;
@@ -231,15 +239,9 @@ text-align: center;
 	
 }
 		
-	.social img{
-		width:5%;
-		height:5%;
-		padding: 1%;
-		 border-radius: 50%;
-		 margin:left;
-		
+	
 		 
-	}
+	
 	Copyright p{
 	text-align:right;
 	margin:2%; color: white;
