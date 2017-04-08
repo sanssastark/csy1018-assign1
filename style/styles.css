@@ -1,6 +1,15 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
+html {
+    background:#4dad59; 
+}
 body{
 	margin:1%; font-size: 18px; 
+background:linear-gradient(to top left,#8be28b,#4ed34e,#77dd77,#a0e7a0,#b4ecb4,#63d863);
+
+
 }
+
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;padding: 0;
 	
@@ -14,17 +23,16 @@ a{
 }
 
 header{
-	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:#003399; font-family:sans-serif;
+	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:white; font-family:sans-serif;
 	
 }
 
 .menubar ul{
 	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
-	background:linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);
-background:-moz-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/* used for mozilla firefox*/
-  background:-webkit-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/*used for safari*/
-  background:-o-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#3f6077);/* used for opera*/
-
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
 }  
 
 
@@ -43,7 +51,7 @@ background:-moz-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#
 .menubar ul li a {
     display: block;
 	padding: 10%;
-    color: #19262f;
+    color: #006400;
     
     padding: 20px 50px;
     text-decoration: none;
@@ -54,16 +62,17 @@ background:-moz-linear-gradient(to bottom left,#97ccf1,#7ec0ee,#71acd6,#5886a6,#
 
 .menubar li a:hover {
 	 border-radius: 10px;
-    background: #324c5f;
-	color: #FFFBD0;
+   background: #00FFAA;
+	color: #112513;
     padding: 20px; 
 	text-align: center;
    
    
 }
 section{
-	display: flex; flex-direction: row; padding: 1%;
+	display: flex; flex-direction: row; padding: 1%; 
 	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1; font-family: "Gabriola", Gabriola, serif;
+    
 	
 }
 
@@ -88,7 +97,9 @@ section{
    
 }
 .picture img:hover{
-	transform: rotateY(200deg);/*the picture will be rotated 200deg*/
+	transform: rotateY(360deg);/*the picture will be rotated 360deg*/
+	transform: rotateY(360deg);/*the picture will be rotated 36deg*/
+	
 	
 }
 
@@ -103,7 +114,7 @@ section{
 
  article ul li a{
 	color: Black;
-	background-color: #79BEDB;
+	background-color:#53907d;
     border-radius: 50%;
     padding: 15px 32px;
     text-align: center;
@@ -125,8 +136,7 @@ section{
 	border-radius:15%;
 	background: #DCDCDC;
 	width:30%;
-	
-
+	margin-left: 35%;
 }
 
 
@@ -136,6 +146,7 @@ article{
 
  footer{
 	display:flex; flex-direction:column;/* used to make all elements in column*/
+	
 }
 
 .social{
@@ -154,15 +165,12 @@ article{
 		 border-radius: 50%;/*disply the image in a circle*/
 		 margin-left:0.5%;
 }
+
+
 .Copyright p{
 	text-align:right;
-	margin:2%; color: white;
+	 color: white;
 	
-}
-
-html {
-    background:#4ca6ff no-repeat center fixed; 
-    background-size: cover;
 }
 
 @media all and (max-width: 600px){/*this is used for making the website mobile responsive*/
@@ -195,7 +203,7 @@ margin-bottom: 4px;
 }
 
 .picture img{
-	width: 100%;
+	width: 100%; 
 }
 
 footer{

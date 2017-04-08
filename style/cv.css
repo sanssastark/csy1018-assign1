@@ -1,9 +1,11 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
 body{
   font-size: 18px; font-family: cursive; 
-  background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);
-  background: -moz-linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
-  background: -webkit-linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for safari*/
-  background: linear-gradient(60deg,#FFFFFF, #41924B,#87E293,#7CCD7C);/* used for opera*/
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);
+  background: -moz-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
+  background: -webkit-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for safari*/
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for opera*/
   color: #006400;
   margin: 2%;
 }
@@ -80,6 +82,7 @@ section{
 	
 }
 .pic img{
+	margin-top:40%;
 	padding:0%;
 	border-radius:3%;
 }
@@ -97,24 +100,33 @@ section{
    text-align:left;
   
 }
+.info h2{
+	text-align:center;
+	font-size:40px;
+}
 .info h3{
   margin-left: 3%;
   margin-top:  4%;
   text-align:left;
 }
 .extra{
-	 display: flex; flex-direction: row; justify-content: space-between; margin-top:1%;
+	 display: flex; flex-direction: row; justify-content: space-between;/*for space between the div*/
+	 margin-top:1%;
 }
 .course{
 	margin:1%;
   border-radius: 5%;
+  
   width: 60%;
  padding: 1%;
   background:#AFEAAA;
    text-align: center;
    padding: 2%; margin-top: 0.5%;
+   
   
 }
+
+
 .personal{
 	margin:1%;
   border-radius: 5%;
@@ -153,7 +165,7 @@ section{
 	
 .social img:hover {
     opacity: 0.5;
-    filter: alpha(opacity=50);
+    filter: alpha(opacity=50);/*for opacity*/
 	
 }
 		
@@ -161,9 +173,9 @@ section{
 		
 		 
 	
-	Copyright p{
+.Copyright p{
 	text-align:right;
-	margin:2%; color: white;
+	 color: white;
 	}
 
 @media all and (max-width: 600px){
@@ -184,6 +196,9 @@ section{
 	display: flex; flex-flow: column wrap;border-radius:10%; 
 margin-bottom: 4px;
 
+}
+.info{
+	margin-top:10%;
 }
 .pic{
 	margin-top:2%;

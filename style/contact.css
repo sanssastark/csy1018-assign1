@@ -1,5 +1,7 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
 html {
-    background:	#8b7b8b;
+    background:	#AFEAAA;
     background-size: cover;
 }
 
@@ -7,6 +9,12 @@ body{
   font-size: 18px; font-family: cursive; 
   
   color: white;padding:1%;margin: 2%;
+  font-size: 18px; font-family: cursive; 	
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);
+  background: -moz-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
+  background: -webkit-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for safari*/
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for opera*/
+ 
  
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -30,8 +38,15 @@ h2{
 
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  background: linear-gradient(10deg,#D8BFD8,#9932CC);
+	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
 }  
+
+
+
 .menubar ul li {
     float:left;
 	justify-content: Space-around;
@@ -46,7 +61,7 @@ h2{
 .menubar ul li a {
     display: block;
 	padding: 10%;
-    color:  white;
+    color: #006400;
     
     padding: 20px 50px;
     text-decoration: none;
@@ -56,9 +71,9 @@ h2{
 
 
 .menubar li a:hover {
-	 border-radius: 10%;
-    background: #9370DB	;
-	color: #88382D;
+	 border-radius: 10px;
+   background: #00FFAA;
+	color: #112513;
     padding: 20px; 
 	text-align: center;
    
@@ -68,7 +83,7 @@ h2{
 
 
 section{
-	background:linear-gradient(30deg,purple,#9C8AA5,#732C7B,#BDAEC6);
+	background:#6aaf6a;
 	display:flex; flex-direction:row; padding:2%;justify-content: space-between; color:white;
 	
 }
@@ -129,7 +144,7 @@ input[type=date], select {
       margin: 1% 0;
       display: inline-block;
       border: 1px;
-      border-radius: 4px;
+      border-radius: 4px;/*edges get trimmed */
 
     }
 
@@ -146,7 +161,7 @@ input[type=date], select {
 	font-size:30px;
 }
 .me p{
-	color:	#E6E6FA;
+	color:	black;
 	font-size:20px;
 	
 	
@@ -156,12 +171,13 @@ input[type=date], select {
    
 
 footer{
-	display:flex; flex-direction:row;
+	margin-top:2%;
 }
+
 
 .social{
 	opacity: 1.0;
-    filter: alpha(opacity=75);
+    filter: alpha(opacity=75);/*makes the selected item a little obaque*/
 	padding-left: 2%;
 }
 .social img:hover {
@@ -172,15 +188,16 @@ footer{
 		width:3%;
 		height:6%;
 		padding: 0%;
-		 border-radius: 50%;
+		 border-radius: 50%;/*disply the image in a circle*/
 		 margin-left:0.5%;
 }
+
+
 .Copyright p{
 	text-align:right;
-	margin:2%; color: black;
+	 color: white;
 	
 }
-
 
 @media all and (max-width: 600px){
 	header{
@@ -207,9 +224,11 @@ margin-bottom: 4px;
 	
 width: 100%;
 }
-
+.me img{
+	margin-left: 65%;
+}
 input[type=submit]{
-	width: 100%;
+	width: 100%;/*width of send buton is 100%*/
 }
 
 footer{

@@ -1,10 +1,11 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
 body{
-  font-size: 18px; font-family: cursive; background: linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);
-  background:-moz-linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);/* used for mozilla firefox*/
-  background:-webkit-linear-gradient(60deg,#B96A9A,#FDE8D7,#ab5088,#cdb5cd,#ffe1ff);/*used for safari*/
-  background:-o-linear-gradient(60deg,#CA278C,#B96A9A,#ab5088,#cdb5cd,#ffe1ff);/* used for opera*/
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-size: 18px; font-family: cursive;  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);
+  background: -moz-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
+  background: -webkit-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for safari*/
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for opera*/;
+   
   color: white;
   margin: 4%;
 }
@@ -24,55 +25,62 @@ header{
 }
 
  h2{
-	color: Black; font-size: 50px;
+	color: Black; font-size: 40px;
 
 }
 
 
 
 .menubar ul{
-	display:flex; flex-direction:row; flex-grow:1;  
-	background: linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); 
-	background: -moz-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for mozilla firefox*/
-	background: -webkit-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for safari*/
-	background: -o-linear-gradient(to bottom right,#FFFFFF, #F5D5BC,#F9E3CB,#AD7460); /* used for opera*/
-	
+	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
 }  
+
+
+
 .menubar ul li {
-	
-	
     float:left;
-	justify-content: Space-around;/*give space between block*/
+	justify-content: Space-around;
 	 margin: auto;
-    width: 15%;
+    width: 50%;
     
-    padding: 2%;
+    padding: 10px;
+	
+	
 }
 
 .menubar ul li a {
-    display: block; /*to display the elements in block*/
+    display: block;
 	padding: 10%;
-    color:#88382D;
-	background:#de9b69;
-    border-radius:10%;
-    padding: 11% ;
+    color: #006400;
+    
+    padding: 20px 50px;
     text-decoration: none;
+	
+	
 }
 
 
 .menubar li a:hover {
-	 border-radius: 10%;
-    background: #ECC5A8	;
-	color: #88382D;
-    padding: 11%; 
+	 border-radius: 10px;
+   background: #00FFAA;
+	color: #112513;
+    padding: 20px; 
 	text-align: center;
    
    
 }
 
 section{
-  background:#D889B8; display: flex;flex-direction: row ;text-align: center;
+  background: #98fb98;
+  display: flex;flex-direction: row ;text-align: center;
   justify-content: space-around; padding: 2%; margin-top: 0.5%; color: black;
+}
+.info h3{
+	text-align:center;font-size:30px;color:#0b180c;
 }
 .pic{
 	
@@ -95,7 +103,7 @@ section{
 	 transition:2s;
 	
 	transition: transform 2s;/*make transition last for 2s*/
-	
+	margin-top: 20%;
 	
 }
 .info{
@@ -108,6 +116,7 @@ section{
 
 
 .social{
+	margin-top:2%;
 	opacity: 1.0;
     filter: alpha(opacity=75);
 	padding-left: 2%;
@@ -127,9 +136,9 @@ section{
 }
 		
 	
-	Copyright p{
+.Copyright p{
 	text-align:right;
-	margin:2%; color: white;
+	 color: white;
 	}
 	
 @media all and (max-width: 600px){/*make the webpage mobile responsive*/
@@ -141,7 +150,8 @@ section{
 		width: 100%;
 	}
 .menubar ul{
-	display: flex; flex-flow: column wrap;border-radius:10%;
+	display: flex; flex-flow: column wrap;/*display the elements in column*/
+	border-radius:10%;
 }
 
 .menubar ul li {
@@ -153,6 +163,8 @@ section{
 	flex-direction: column;/*display the elements in a column*/
 	width:100%;
 margin-bottom: 4px;
+ 
+
 
 }
 
