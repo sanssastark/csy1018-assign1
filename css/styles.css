@@ -1,0 +1,226 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
+html {
+    background:#4dad59; 
+}
+body{
+	margin:1%; font-size: 18px; 
+background:linear-gradient(to top left,#8be28b,#4ed34e,#77dd77,#a0e7a0,#b4ecb4,#63d863);
+
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;padding: 0;
+	
+}
+
+ul{
+  list-style: none;
+}
+a{
+ text-decoration:none;
+}
+
+header{
+	font-size: 30px;margin: 1px;padding: 1%;text-align: center;color:white; font-family:sans-serif;
+	
+}
+
+.menubar ul{
+	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
+}  
+
+
+
+.menubar ul li {
+    float:left;
+	justify-content: Space-around;
+	 margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+	
+	
+}
+
+.menubar ul li a {
+    display: block;
+	padding: 10%;
+    color: #006400;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+	
+	
+}
+
+
+.menubar li a:hover {
+	 border-radius: 10px;
+   background: #00FFAA;
+	color: #112513;
+    padding: 20px; 
+	text-align: center;
+   
+   
+}
+section{
+	display: flex; flex-direction: row; padding: 1%; 
+	margin:0%; font-size:30px; justify-content: space-around; flex-grow: 1; font-family: "Gabriola", Gabriola, serif;
+    
+	
+}
+
+.picture{
+    margin: 5px;
+    border: 1px solid #ccc; /*a solid border of 1px will appear*/
+	border-radius:2%;
+    float: left;
+	margin-left: 2%;
+	 position: relative; 
+
+}
+
+
+.picture:hover {
+    border: 1px solid #000000 ;/*a solid border of 1px will appear*/
+}
+
+.picture img {
+	transition: transform 4s;
+    
+   
+}
+.picture img:hover{
+	transform: rotateY(360deg);/*the picture will be rotated 360deg*/
+	transform: rotateY(360deg);/*the picture will be rotated 36deg*/
+	
+	
+}
+
+
+.info {
+    padding: 1%;
+    text-align: center;/* used for alignning the text in the center*/
+}
+
+
+
+
+ article ul li a{
+	color: Black;
+	background-color:#53907d;
+    border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+
+ article ul li:hover a{
+	color: white;
+}
+
+ article ul li ul{display: none;}
+
+
+ article ul li:hover ul{
+    display: block;
+	border-radius:15%;
+	background: #DCDCDC;
+	width:30%;
+	margin-left: 35%;
+}
+
+
+article{
+	text-align: center;
+}
+
+ footer{
+	display:flex; flex-direction:column;/* used to make all elements in column*/
+	
+}
+
+.social{
+	opacity: 1.0;
+    filter: alpha(opacity=75);/*makes the selected item a little obaque*/
+	padding-left: 2%;
+}
+.social img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.social img {
+		width:3%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;/*disply the image in a circle*/
+		 margin-left:0.5%;
+}
+
+
+.Copyright p{
+	text-align:right;
+	 color: white;
+	
+}
+
+@media all and (max-width: 600px){/*this is used for making the website mobile responsive*/
+	header{
+		flex-direction: column;text-align:center;
+	}
+.menubar{
+	width:100%;
+margin-bottom: 2px;
+}
+.menubar ul{
+	display: flex; flex-flow: column wrap;border-radius:10%;
+}
+
+	
+
+section{
+	flex-direction: column;/*makes the elements in section appear in column in mobile*/
+	width:98%;
+margin-bottom: 4px;
+
+}
+.pic{
+	width: 98%;
+	padding-bottom:4%;
+}
+
+.info{
+	width: 98%;
+}
+
+.picture img{
+	width: 100%; 
+}
+
+footer{
+	flex-direction: column;
+	width: 98%;
+}
+.social{
+	width: 100%;
+	
+text-align: center;
+}
+
+.social img {
+		width:10%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+margin-left:0.5%;
+}
+}

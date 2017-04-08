@@ -1,0 +1,190 @@
+/*Name:Anishma Tuladhar
+UN ID: 17429438*/
+body{
+  font-size: 18px; font-family: cursive;  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);
+  background: -moz-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for mozilla firefox*/
+  background: -webkit-linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for safari*/
+  background: linear-gradient(60deg, #41924B,#87E293,#7CCD7C);/* used for opera*/;
+   
+  color: white;
+  margin: 4%;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 1%; margin-bottom: 1%;padding: 0%;
+}
+li{
+  list-style: none;
+}
+a{
+ text-decoration:none;
+}
+header{
+  text-align: center; padding: 0%; color: #9932CC;
+ 
+  margin-bottom: 0.5%;
+}
+
+ h2{
+	color: Black; font-size: 40px;
+
+}
+
+
+
+.menubar ul{
+	display:flex; flex-direction:row; flex-grow:1;font-size:20px;font-family:cursive;
+	background: linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); 
+	background: -moz-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for mozilla firefox*/
+	background: -webkit-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for safari*/
+	background: -o-linear-gradient(to top left, #2C6700,#99CC99,#99CC99,#FFFFFF); /* used for opera*/
+}  
+
+
+
+.menubar ul li {
+    float:left;
+	justify-content: Space-around;
+	 margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+	
+	
+}
+
+.menubar ul li a {
+    display: block;
+	padding: 10%;
+    color: #006400;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+	
+	
+}
+
+
+.menubar li a:hover {
+	 border-radius: 10px;
+   background: #00FFAA;
+	color: #112513;
+    padding: 20px; 
+	text-align: center;
+   
+   
+}
+
+section{
+  background: #98fb98;
+  display: flex;flex-direction: row ;text-align: center;
+  justify-content: space-around; padding: 2%; margin-top: 0.5%; color: black;
+}
+.info h3{
+	text-align:center;font-size:30px;color:#0b180c;
+}
+.pic{
+	
+    margin: 5px;
+	width: 20%;
+	justify-content:space-around;
+	float:left;
+	
+	
+	
+}
+
+.pic img:hover {
+    transform: rotate(200deg);/*rotate image 200deg*/
+}
+ .pic img {
+    
+	
+	 border-radius: 10%;
+	 transition:2s;
+	
+	transition: transform 2s;/*make transition last for 2s*/
+	margin-top: 20%;
+	
+}
+.info{
+	text-align:left;
+	padding-left:1%;
+}
+.footer{
+	text-align:left;/*align the text to the left*/
+}
+
+
+.social{
+	margin-top:2%;
+	opacity: 1.0;
+    filter: alpha(opacity=75);
+	padding-left: 2%;
+}
+	.social img {
+		width:3%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
+	
+.social img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+	
+}
+		
+	
+.Copyright p{
+	text-align:right;
+	 color: white;
+	}
+	
+@media all and (max-width: 600px){/*make the webpage mobile responsive*/
+	header{
+		flex-direction: column;text-align:center;
+	}
+
+	.menubar{
+		width: 100%;
+	}
+.menubar ul{
+	display: flex; flex-flow: column wrap;/*display the elements in column*/
+	border-radius:10%;
+}
+
+.menubar ul li {
+	 margin-left: 0px;
+    width: 85%;
+}
+
+section{
+	flex-direction: column;/*display the elements in a column*/
+	width:100%;
+margin-bottom: 4px;
+ 
+
+
+}
+
+
+
+footer{
+	flex-direction: column;
+}
+.social{
+	width: 100%;
+	
+text-align: center;
+}
+
+.social img {
+		width:10%;
+		height:6%;
+		padding: 0%;
+		 border-radius: 50%;
+		 margin-left:0.5%;
+}
+}
+
